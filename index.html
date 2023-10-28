@@ -2,16 +2,11 @@
 <html>
 <head>
     <script type="text/javascript">
-        let path = window.location.pathname;
-        console.log(path);
-    setTimeout(() => {
-        if (window.location.pathname == "/pd/projects" || "/pd/projects/") {
-            console.log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-            window.location.href = "https://davidpintye.github.io/projects";
+        if (window.location.pathname == ("/pd/projects" || "/pd/projects/")) {
+            window.location.href = "https://davidpintye.github.io/pd/projects";
         } else {
             window.location.href = "https://davidpintye.github.io/pd";
         }
-    },10000)
     </script>
 </head>
 <body>
