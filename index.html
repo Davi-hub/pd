@@ -3,13 +3,17 @@
 <head>
     <script type="text/javascript">
         let path;
+        console.log(path);
+    setTimeout(() => {
         if (window.location.pathname !== "/") {
             path = window.location.pathname;
             console.log(path);
+            setTime
             window.location.href = "https://davidpintye.github.io/" + path;
         } else {
             window.location.href = "https://davidpintye.github.io/pd";
         }
+    ,2000}
     </script>
 </head>
 <body>
