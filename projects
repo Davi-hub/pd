@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript">
-        if (window.location.pathname == "/pd/projects" || window.location.pathname == "/pd/projects/")) {
-            window.location.href = "https://davidpintye.github.io/pd/projects";
-        } else {
-            window.location.href = "https://davidpintye.github.io/pd";
-        }
-    </script>
 </head>
 <body>
+    projects
 </body>
 </html>
